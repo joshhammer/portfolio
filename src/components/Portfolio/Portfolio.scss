@@ -1,0 +1,97 @@
+.portfolio-page {
+    &-wrapper {
+        height: 100vh;
+        // background: var(--mainFrameColor);
+        background: linear-gradient(135deg, var(--mainFrameColor), var(--darkTextColor));
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 40px; 
+    }
+    &-content {
+        height: 100%;
+        width: 100%;
+        background: var(--mainBackgroundColor);
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+    }
+}
+
+.portfolio-section-upper {
+    width: 75%;
+    height: 100%;
+    // margin-bottom: 4rem;
+    overflow: scroll;
+}
+
+.portfolio-title-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.portfolio-title {
+    text-transform: uppercase;
+    font-size: 4rem;
+    background: -webkit-linear-gradient(0deg, var(--darkTextColor), var(--mainFrameColor));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.portfolio-work-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    overflow: scroll;
+}
+
+.portfolio-card {
+    // padding: 10px;
+    min-width: 320px;
+    &-title {
+        background: -webkit-linear-gradient(0deg, var(--darkTextColor), var(--mainFrameColor));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        padding-bottom: .5rem;
+        margin-bottom: 2rem;
+        border-bottom: 5px solid var(--darkTextColor);
+    }
+    &-border-box {
+        border: 5px solid var(--darkTextColor);
+        padding-bottom: 10px;
+        & a {
+            font-weight: 700;
+            text-transform: uppercase;
+            padding: 10px;
+            color: var(--brightTextColor);
+            text-decoration: none;
+            &:hover {
+                color: var(--darkTextColor);
+            }
+        }
+
+    }
+    &-image {
+        width: 100%;
+        height: 382px;
+        max-width: 100%;
+        border-bottom: 5px solid var(--darkTextColor);
+    }
+    &-text {
+        padding: 10px;
+    }
+}
+
+.razzpay-img {
+    object-fit: contain;
+}
+.hammer-img {
+    object-fit: cover;
+}
+
