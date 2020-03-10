@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --mainFont: 'Montserrat', sans-serif;
+  --mainFrameColor: #9a1750;
+  --mainBackgroundColor: #e3e2df;
+  --darkTextColor: #2C211C;
+  --brightTextColor: #EE4C7C;
+}
+
+body, html {
+  height: 100vh;
+}
+
+#root {
+  height: 100vh;
+  font-family: var(--mainFont);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

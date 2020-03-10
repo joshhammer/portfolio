@@ -1,0 +1,19 @@
+.skills-page {
+    &-wrapper {
+        height: 100vh;
+        // background: var(--mainFrameColor);
+        background: linear-gradient(135deg, var(--mainFrameColor), var(--darkTextColor));
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 40px; 
+    }
+    &-content {
+        height: 100%;
+        width: 100%;
+        background: var(--mainBackgroundColor);
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+    }
+}

@@ -1,0 +1,91 @@
+.landing-page {
+    &-wrapper {
+        height: 100vh;
+        // background: var(--mainFrameColor);
+        background: linear-gradient(135deg, var(--mainFrameColor), var(--darkTextColor));
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 40px; 
+    }
+    &-content {
+        height: 100%;
+        width: 100%;
+        background: var(--mainBackgroundColor);
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+        & h1 {
+            text-transform: uppercase;
+            font-size: 4rem;
+        }
+        &-upper {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            height: 60%;
+        }
+        &-lower {
+            height: 40%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            &-left {
+
+            }
+            &-right {
+
+            }
+        }
+    }
+}
+
+#name-introduction {
+    // color: var(--darkTextColor);
+    background: -webkit-linear-gradient(0deg, var(--darkTextColor), var(--mainFrameColor));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 1rem;
+}
+
+#developer-introduction {
+    // color: var(--brightTextColor);
+    background: -webkit-linear-gradient(0deg, var(--darkTextColor) 0%, var(--brightTextColor) 70%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#know-more {
+    color: var(--darkTextColor);
+}
+
+.navigation-links {
+    & a {
+            text-transform: uppercase;
+            text-decoration: none;
+            font-size: 1.5rem;
+            color: #EE4C7C;
+            font-weight: 700;
+            &:hover {
+                color: var(--darkTextColor);
+            }
+        }
+}
+
+.initials {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: var(--darkTextColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & p {
+        text-transform: uppercase;
+        font-size: 3rem;
+        font-weight: 700;
+        color: var(--brightTextColor)
+    }
+}
+
