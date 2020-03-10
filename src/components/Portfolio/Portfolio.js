@@ -73,7 +73,7 @@ function Portfolio() {
                             <h3 className='portfolio-card-title'>Josh Hammer</h3>
                             <div className='portfolio-card-border-box'>
                                 <img className='portfolio-card-image hammer-img' src={synthpop} alt="rgb gif"/>
-                                <p className='portfolio-card-text'>A website for my Synthpop project.</p>
+                                <p className='portfolio-card-text'>A band website for my 80s Synthpop project.</p>
                                 <a href='https://github.com/joshhammer/synthpop' target='_blank'>Github Repo</a>
                             </div>
                         </div>
