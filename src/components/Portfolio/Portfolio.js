@@ -43,6 +43,15 @@ function Portfolio() {
                         </div>
 
                         <div className='portfolio-card'>
+                            <h3 className='portfolio-card-title'>Todo List</h3>
+                            <div className='portfolio-card-border-box'>
+                                <img className='portfolio-card-image' src={todo} alt="rgb gif"/>
+                                <p className='portfolio-card-text'>A simple todo list using React & Redux. there's a bug I still have to fix though :)</p>
+                                <a href='https://github.com/joshhammer/react-todo' target='_blank'>Github Repo</a>
+                            </div>
+                        </div>
+                        
+                        <div className='portfolio-card'>
                             <h3 className='portfolio-card-title'>Retro Shooter</h3>
                             <div className='portfolio-card-border-box'>
                                 <img className='portfolio-card-image' src={shooter} alt="rgb gif"/>
@@ -51,17 +60,9 @@ function Portfolio() {
                             </div>
                         </div>
 
-                        <div className='portfolio-card'>
-                            <h3 className='portfolio-card-title'>Todo List with React & Redux</h3>
-                            <div className='portfolio-card-border-box'>
-                                <img className='portfolio-card-image' src={todo} alt="rgb gif"/>
-                                <p className='portfolio-card-text'>A simple todo list using react & redux. there's a bug I still have to fix though :)</p>
-                                <a href='https://github.com/joshhammer/react-todo' target='_blank'>Github Repo</a>
-                            </div>
-                        </div>
 
                         <div className='portfolio-card'>
-                            <h3 className='portfolio-card-title'>Propulsion: Final Project</h3>
+                            <h3 className='portfolio-card-title'>Razzpay</h3>
                             <div className='portfolio-card-border-box'>
                                 <img className='portfolio-card-image razzpay-img' src={razzpay} alt="rgb gif"/>
                                 <p className='portfolio-card-text'>A payroll management app. Final project of the propulsion academy full-stack bootcamp.</p>
