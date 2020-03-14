@@ -25,20 +25,20 @@ function Portfolio() {
                     </div>
                     <div className='portfolio-work-container'>
                         <div className='portfolio-card'>
-                            <h3 className='portfolio-card-title'>etch-a-sketch</h3>
+                            <h3 className='portfolio-card-title'>RGB Guessing Game</h3>
                             <div className='portfolio-card-border-box'>
-                                <img className='portfolio-card-image' src={etchSketch} alt="etch-a-sketch gif"/>
-                                <p className='portfolio-card-text'>A simple Etch-a-Sketch board made as an exercise from The Odin Project.</p>
-                                <a href='https://github.com/joshhammer/etch-a-sketch' target='_blank'>Github Repo</a>
+                                <img className='portfolio-card-image' src={rgbGuessr} alt="rgb gif"/>
+                                <p className='portfolio-card-text'>A RGB color guessing game made with Vanilla JS. Part of a udemy web-developer course exercise.</p>
+                                <a href='https://github.com/joshhammer/colorGame' target='_blank' rel="noopener noreferrer">Github Repo and Page</a>
                             </div>
                         </div>
 
                         <div className='portfolio-card'>
-                            <h3 className='portfolio-card-title'>RGB Guessing Game</h3>
+                            <h3 className='portfolio-card-title'>etch-a-sketch</h3>
                             <div className='portfolio-card-border-box'>
-                                <img className='portfolio-card-image' src={rgbGuessr} alt="rgb gif"/>
-                                <p className='portfolio-card-text'>A RGB color guessing game. Part of a udemy web-developer course exercise.</p>
-                                <a href='https://github.com/joshhammer/colorGame' target='_blank'>Github Repo</a>
+                                <img className='portfolio-card-image' src={etchSketch} alt="etch-a-sketch gif"/>
+                                <p className='portfolio-card-text'>A simple "Etch-a-Sketch" board made with Vanilla JS. Exercise for "The Odin Project".</p>
+                                <a href='https://github.com/joshhammer/etch-a-sketch' target='_blank' rel="noopener noreferrer">Github Repo and Page</a>
                             </div>
                         </div>
 
@@ -46,8 +46,8 @@ function Portfolio() {
                             <h3 className='portfolio-card-title'>Todo List</h3>
                             <div className='portfolio-card-border-box'>
                                 <img className='portfolio-card-image' src={todo} alt="rgb gif"/>
-                                <p className='portfolio-card-text'>A simple todo list using React & Redux. there's a bug I still have to fix though :)</p>
-                                <a href='https://github.com/joshhammer/react-todo' target='_blank'>Github Repo</a>
+                                <p className='portfolio-card-text'>A simple todo list using React & Redux. there's an annoying little bug I still have to fix though :)</p>
+                                <a href='https://github.com/joshhammer/react-todo' target='_blank' rel="noopener noreferrer">Github Repo and Page</a>
                             </div>
                         </div>
                         
@@ -55,18 +55,18 @@ function Portfolio() {
                             <h3 className='portfolio-card-title'>Retro Shooter</h3>
                             <div className='portfolio-card-border-box'>
                                 <img className='portfolio-card-image' src={shooter} alt="rgb gif"/>
-                                <p className='portfolio-card-text'>A simple retro-looking shooter game written in JS and using CSS animations.</p>
-                                <a href='https://github.com/joshhammer/arcade-shooter' target='_blank'>Github Repo</a>
+                                <p className='portfolio-card-text'>A unfortunately half-finished retro-looking shooter game made with Vanilla JS and CSS animations.</p>
+                                <a href='https://github.com/joshhammer/arcade-shooter' target='_blank' rel="noopener noreferrer">Github Repo and Page</a>
                             </div>
                         </div>
 
 
                         <div className='portfolio-card'>
-                            <h3 className='portfolio-card-title'>Razzpay</h3>
+                            <h3 className='portfolio-card-title'>Bootcamp Project</h3>
                             <div className='portfolio-card-border-box'>
                                 <img className='portfolio-card-image razzpay-img' src={razzpay} alt="rgb gif"/>
                                 <p className='portfolio-card-text'>A payroll management app. Final project of the propulsion academy full-stack bootcamp.</p>
-                                <a href='https://github.com/joshhammer/propulsion-final-project' target='_blank'>Github Repo</a>
+                                <a href='https://github.com/joshhammer/propulsion-final-project' target='_blank' rel="noopener noreferrer">Github Repo and Page</a>
                             </div>
                         </div>
 
@@ -74,8 +74,8 @@ function Portfolio() {
                             <h3 className='portfolio-card-title'>Josh Hammer</h3>
                             <div className='portfolio-card-border-box'>
                                 <img className='portfolio-card-image hammer-img' src={synthpop} alt="rgb gif"/>
-                                <p className='portfolio-card-text'>A band website for my 80s Synthpop project.</p>
-                                <a href='https://github.com/joshhammer/synthpop' target='_blank'>Github Repo</a>
+                                <p className='portfolio-card-text'>A band website made with HTML and CSS for my own 80s Synthpop solo-project.</p>
+                                <a href='https://github.com/joshhammer/synthpop' target='_blank' rel="noopener noreferrer">Github Repo and Page</a>
                             </div>
                         </div>
 
@@ -84,7 +84,7 @@ function Portfolio() {
                             <div className='portfolio-card-border-box'>
                                 <img className='portfolio-card-image hammer-img' src={rockPaper} alt="rgb gif"/>
                                 <p className='portfolio-card-text'>A little Rock, Paper, Scissors game. Exercise for a udemy web-developer course.</p>
-                                <a href='https://github.com/joshhammer/rock-paper-scissors' target='_blank'>Github Repo</a>
+                                <a href='https://github.com/joshhammer/rock-paper-scissors' target='_blank' rel="noopener noreferrer">Github Repo and Page</a>
                             </div>
                         </div>
 

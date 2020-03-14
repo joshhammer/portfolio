@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import farlow from '../../assets/screenshots/farlow.jpg'
+import hammer from '../../assets/screenshots/josh-hammer.jpg'
 import './Music.scss'
 
 function Music() {
@@ -32,18 +34,18 @@ function Music() {
                     <div className='music-card'>
                         <h3 className='music-card-title'>farlow</h3>
                         <div className='music-card-border-box'>
-                            <img className='music-card-image' src='' alt="farlow pic" />
+                            <img className='music-card-image' src={farlow} alt="farlow pic" />
                             <p className='music-card-text'>Farlow is an indie rock band.</p>
-                            <a href='http://www.soundcloud.com/farlowband' target='_blank'>Visit Website</a>
+                            <a href='http://www.soundcloud.com/farlowband' target='_blank' rel="noopener noreferrer">Visit Website</a>
                         </div>
                     </div>
 
                     <div className='music-card'>
                         <h3 className='music-card-title'>Josh Hammer</h3>
                         <div className='music-card-border-box'>
-                            <img className='music-card-image' src='' alt="farlow pic" />
+                            <img className='music-card-image' src={hammer} alt="josh hammer pic" />
                             <p className='music-card-text'>Josh Hammer is an 80s Synthpop solo project.</p>
-                            <a href='http://joshhammer.bandcamp.com' target='_blank'>Visit Website</a>
+                            <a href='http://joshhammer.bandcamp.com' target='_blank' rel="noopener noreferrer">Visit Website</a>
                         </div>
                     </div>
                 </div>

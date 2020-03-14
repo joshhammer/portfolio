@@ -46,7 +46,7 @@ function Contact() {
                         <div className='contact-element-title-box'>
                             <h3>LinkedIn</h3>
                         </div>
-                        <a href='https://www.linkedin.com/in/josua-haemmerle' target='_blank'>Josua Hämmerle</a>
+                        <a href='https://www.linkedin.com/in/josua-haemmerle' target='_blank' rel="noopener noreferrer">Josua Hämmerle</a>
                     </div>
 
                 </div>

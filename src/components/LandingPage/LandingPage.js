@@ -3,8 +3,7 @@ import { Link } from "react-router-dom";
 import { withRouter } from 'react-router-dom';
 import './LandingPage.scss'
 
-function Landingpage(props) {
-    const path = props.history.location.pathname
+function Landingpage() {
     return(
         <div className='landing-page-wrapper'>
             <div className='landing-page-content'>

@@ -42,7 +42,7 @@
 
 #name-introduction {
     // color: var(--darkTextColor);
-    background: -webkit-linear-gradient(0deg, var(--darkTextColor), var(--mainFrameColor));
+    background: -webkit-linear-gradient(0deg, var(--darkTextColor), var(--mainFrameColor) 50%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -51,7 +51,7 @@
 
 #developer-introduction {
     // color: var(--brightTextColor);
-    background: -webkit-linear-gradient(0deg, var(--darkTextColor) 0%, var(--brightTextColor) 70%);
+    background: -webkit-linear-gradient(0deg, var(--darkTextColor) 0%, var(--brightTextColor) 50%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -64,7 +64,7 @@
     & a {
             text-transform: uppercase;
             text-decoration: none;
-            font-size: 1.5rem;
+            font-size: 1.75rem;
             color: #EE4C7C;
             font-weight: 700;
             &:hover {

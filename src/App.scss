@@ -22,3 +22,30 @@
         -webkit-text-fill-color: transparent;
     }
 }
+
+@media screen and (max-width: 640px) {
+    .back-btn {
+    display: flex;
+    align-items: center;
+    & svg {
+        width: 30px;
+        height: 30px;
+        color: var(--mainFrameColor);
+        transition: all .2s ease-in-out;
+        &:hover {
+            color: var(--darkTextColor);
+        }
+    }
+    & p {
+        display: none;
+        margin-right: 1rem;
+        text-transform: uppercase;
+        font-size: 2rem;
+        font-weight: 700;
+        background: -webkit-linear-gradient(0deg, var(--darkTextColor), var(--mainFrameColor));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+}
