@@ -46,7 +46,7 @@ function Portfolio() {
                             <h3 className='portfolio-card-title'>Todo List</h3>
                             <div className='portfolio-card-border-box'>
                                 <img className='portfolio-card-image' src={todo} alt="rgb gif"/>
-                                <p className='portfolio-card-text'>A simple todo list using React & Redux. there's an annoying little bug I still have to fix though :)</p>
+                                <p className='portfolio-card-text'>A simple todo list using React & Redux. there's a strange little bug I still have to fix though :)</p>
                                 <a href='https://github.com/joshhammer/react-todo' target='_blank' rel="noopener noreferrer">Github Repo and Page</a>
                             </div>
                         </div>

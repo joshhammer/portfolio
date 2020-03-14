@@ -12,7 +12,6 @@ function Landingpage() {
                     <h1 id='developer-introduction'>i am a developer <br/>based in zurich.</h1>
                 </div>
                 <div className='landing-page-content-lower'>
-                    <div className='landing-page-content-lower-left'>
                         <h1 id='know-more'>want to know more?</h1>
                         <div className='navigation-links'>
                             <Link to="/about">about</Link>
@@ -21,7 +20,6 @@ function Landingpage() {
                             <Link to="/music">music</Link>
                             <Link to="/contact">contact</Link>
                         </div>
-                    </div>
                 </div>
             </div>
         </div>
