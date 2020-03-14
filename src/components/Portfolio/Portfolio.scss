@@ -95,7 +95,9 @@
     object-fit: cover;
 }
 
-@media screen and (max-width: 640px) {
+// small media query
+
+@media screen and (max-width: 768px) {
 
     .portfolio-page {
     &-wrapper {
@@ -118,11 +120,11 @@
         justify-content: space-between;
         align-items: center;
         width: 100%;
-        margin-bottom: 5rem;
+        margin-bottom: 4rem;
     }
 
     .portfolio-title {
-        font-size: 2rem;
+        font-size: 2.25rem;
 }
 
     .portfolio-work-container {
@@ -145,8 +147,93 @@
         &-image {
             border-bottom: 2px solid var(--darkTextColor);
         }
-        &-text {
-            
+    }
+}
+
+// medium media query
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .portfolio-page {
+        &-wrapper {
+        padding: 10px; 
+        }
+        &-content {
+        padding: 10px;
         }
     }
+
+    .portfolio-section-upper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .portfolio-work-container {
+        grid-template-columns: repeat(2, 320px);
+    }
+
+    .portfolio-title-box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 4rem;
+    }
+
+    .portfolio-title {
+        font-size: 3rem;
+    }
+
+
+    .portfolio-card {
+        min-width: 320px;
+        &-title {
+            font-size: 1.25rem;
+            border-bottom: 2px solid var(--darkTextColor);
+        }
+        &-border-box {
+            border: 2px solid var(--darkTextColor);
+            & a {
+                
+            }
+
+        }
+        &-image {
+            border-bottom: 2px solid var(--darkTextColor);
+        }
+    }
+}
+
+// large media query
+
+@media screen and (min-width: 1200px){
+    .portfolio-page {
+        &-wrapper {
+        padding: 20px; 
+        }
+        &-content {
+        padding: 20px;
+        }
+    }
+
+    .portfolio-section-upper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .portfolio-title-box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 4rem;
+    }
+
+    .portfolio-work-container {
+        grid-template-columns: repeat(3, 320px);
+    }
+
 }
