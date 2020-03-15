@@ -15,6 +15,7 @@
         display: flex;
         flex-direction: column;
         padding: 40px;
+        overflow: scroll;
     }
 }
 
@@ -49,28 +50,98 @@
     // display: flex;
     // flex-direction: column;
     & h3 {
-        font-size: 1.5rem;
+        font-size: 2rem;
         text-transform: uppercase;
         margin-bottom: .75rem;
-        border-bottom: 3px solid var(--darkTextColor);
+        color: var(--darkTextColor);
+        border-bottom: 4px solid var(--darkTextColor);
     }
     & p {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         line-height: 1.75rem;
     }
     & a {
-        font-size: 1.2rem;
-        color: var(--brightTextColor);
+        font-size: 1.5rem;
+        color: var(--darkTextColor);
         text-decoration: none;
         display: inline;
         &:hover {
-            color: var(--darkTextColor);
+            color: var(--brightTextColor);
         }
     }
     &-title-box {
         display: flex;
     }
-    &-address {
+}
 
+@media screen and (max-width: 768px) { 
+    .contact-page {
+        &-wrapper {
+            padding: 10px; 
+        }
+        &-content {
+            padding: 20px;
+        }
+    }
+
+    .contact-section-upper {
+        width: 100%;
+    }
+
+    .contact-title {
+        font-size: 2.5rem;
+    }
+
+    .contact-details-section {
+        width: 100%;
+    }
+
+    .contact-element {
+        margin-bottom: 3rem;
+            & h3 {
+                font-size: 1.7rem;
+            }
+            & p {
+                font-size: 1.4rem;
+            }
+            & a {
+                font-size: 1.4rem;
+            }
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .contact-page {
+        &-wrapper {
+            padding: 20px; 
+        }
+        &-content {
+            padding: 30px;
+        }
+    }
+
+    .contact-section-upper {
+        width: 100%;
+    }
+
+    .contact-title {
+        font-size: 3rem;
+    }
+
+    .contact-details-section {
+        width: 100%;
+    }
+
+    .contact-element {
+        margin-bottom: 3rem;
+            & h3 {
+                font-size: 1.8rem;
+            }
+            & p {
+                font-size: 1.5rem;
+            }
+            & a {
+                font-size: 1.5rem;
+            }
     }
 }

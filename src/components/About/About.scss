@@ -15,20 +15,20 @@
         display: flex;
         flex-direction: column;
         padding: 40px;
+        overflow: scroll;
     }
 }
 
 .about-section-upper {
     width: 75%;
-    // height: 50%;
-    margin-bottom: 4rem;
+    margin-bottom: 5rem;
 }
 
 .about-title-box {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 1.5rem;
+    margin-bottom: 4rem;
 }
 
 .about-title {
@@ -46,30 +46,37 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-transform: uppercase;
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
 }
 
 .about-paragraph {
     color: var(--darkTextColor);
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     line-height: 1.75rem;
     text-align: justify;
+}
+
+.about-section-lower {
+    width: 75%;
 }
 
 .interests-title {
     font-size: 2.5rem;
     text-transform: uppercase;
-    color: var(--darkTextColor);
+    background: -webkit-linear-gradient(0deg, var(--darkTextColor), var(--mainFrameColor));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .interests-box {
     padding: 20px 0;
     margin-left: -10px;
-    & p:nth-child(2n) {
-        background: var(--brightTextColor);
-        color: var(--darkTextColor);
-    }
+    // & p:nth-child(2n) {
+    //     background: var(--brightTextColor);
+    //     color: var(--darkTextColor);
+    // }
 }
 
 .interest-tag {
@@ -80,8 +87,102 @@
     background: var(--mainFrameColor);
     color: var(--mainBackgroundColor);
     text-transform: uppercase;
+    font-size: 1.15rem;
 }
 
-.about-section-lower {
-    width: 75%;
+
+@media screen and (max-width: 768px) { 
+    .about-page {
+        &-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px; 
+        }
+        &-content {
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+        }
+    }
+
+    .about-section-upper {
+        width: 100%;
+    }
+
+    .about-title-box {
+        margin-bottom: 3rem;
+    }
+
+    .about-title {
+        font-size: 2.25rem;
+    }
+
+    .about-subtitle {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .about-paragraph {
+        font-size: 1.2rem;
+        line-height: 1.75rem;
+    }
+
+    .about-section-lower {
+        width: 100%;
+    }
+
+    .interests-title {
+        font-size: 2rem;
+    }
+
+    .interest-tag {
+    font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .about-page {
+        &-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px; 
+        }
+        &-content {
+            display: flex;
+            flex-direction: column;
+            padding: 30px;
+        }
+    }
+
+    .about-section-upper {
+        width: 100%;
+    }
+
+    .about-title-box {
+        margin-bottom: 4rem;
+    }
+
+    .about-title {
+        font-size: 3rem;
+    }
+
+    .about-subtitle {
+        font-size: 1.75rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .about-paragraph {
+        font-size: 1.4rem;
+        line-height: 1.75rem;
+    }
+
+    .about-section-lower {
+        width: 100%;
+    }
+
+    .interests-title {
+        font-size: 2rem;
+    }
 }
