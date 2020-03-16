@@ -49,8 +49,7 @@
 }
 
 .portfolio-card {
-    // padding: 10px;
-    min-width: 320px;
+    width: 320px;
     &-title {
         background: -webkit-linear-gradient(0deg, var(--darkTextColor), var(--mainFrameColor));
         background-clip: text;
@@ -133,7 +132,7 @@
 }
 
     .portfolio-card {
-        min-width: 320px;
+        width: 320px;
         &-title {
             font-size: 1.25rem;
             border-bottom: 2px solid var(--darkTextColor);
@@ -188,7 +187,7 @@
 
 
     .portfolio-card {
-        min-width: 320px;
+        width: 320px;
         &-title {
             font-size: 1.25rem;
             border-bottom: 2px solid var(--darkTextColor);
@@ -206,35 +205,3 @@
     }
 }
 
-// large media query
-
-@media screen and (min-width: 1200px){
-    .portfolio-page {
-        &-wrapper {
-        padding: 20px; 
-        }
-        &-content {
-        padding: 20px;
-        }
-    }
-
-    .portfolio-section-upper {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .portfolio-title-box {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 100%;
-        margin-bottom: 4rem;
-    }
-
-    .portfolio-work-container {
-        grid-template-columns: repeat(3, 320px);
-    }
-
-}

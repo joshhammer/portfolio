@@ -48,6 +48,14 @@ function Music() {
                             <a href='http://joshhammer.bandcamp.com' target='_blank' rel="noopener noreferrer">Visit Website</a>
                         </div>
                     </div>
+
+                    <div className='music-card'>
+                        <h3 className='music-card-title'>Milhouse</h3>
+                        <div className='music-card-border-box'>
+                            <img className='music-card-image' src={hammer} alt="josh hammer pic" />
+                            <p className='music-card-text'>Milhouse was an alternative rock band.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
