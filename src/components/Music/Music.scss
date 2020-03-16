@@ -34,14 +34,14 @@
 .music-title {
     text-transform: uppercase;
     font-size: 4rem;
-    background: -webkit-linear-gradient(0deg, var(--darkTextColor), var(--mainFrameColor));
+    background: var(--titleBackgroundColor);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .music-subtitle {
-    background: -webkit-linear-gradient(0deg, var(--darkTextColor), var(--mainFrameColor));
+    background: var(--titleBackgroundColor);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -69,7 +69,7 @@
     max-width: 500px;
     justify-self: center;
     &-title {
-        background: -webkit-linear-gradient(0deg, var(--darkTextColor), var(--mainFrameColor));
+        background: var(--titleBackgroundColor);
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;

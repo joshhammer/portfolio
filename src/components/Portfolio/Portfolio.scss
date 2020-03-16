@@ -35,7 +35,7 @@
 .portfolio-title {
     text-transform: uppercase;
     font-size: 4rem;
-    background: -webkit-linear-gradient(0deg, var(--darkTextColor), var(--mainFrameColor));
+    background: var(--titleBackgroundColor);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -51,7 +51,7 @@
 .portfolio-card {
     width: 320px;
     &-title {
-        background: -webkit-linear-gradient(0deg, var(--darkTextColor), var(--mainFrameColor));
+        background: var(--titleBackgroundColor);
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;

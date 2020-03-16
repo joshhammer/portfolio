@@ -5,12 +5,32 @@
   font-family: var(--mainFont);
 }
 
+// Initial Theme
+// :root {
+//   --mainFont: 'Montserrat', sans-serif;
+//   --mainFrameColor: #9a1750;
+//   --mainBackgroundColor: #e3e2df;
+//   --darkTextColor: #2C211C;
+//   --brightTextColor: #EE4C7C;
+// }
+
+// Red Star Wars Theme
+// :root {
+//   --mainFont: 'Montserrat', sans-serif;
+//   --mainFrameColor: rgb(173, 17, 28);
+//   --mainBackgroundColor: #fff1d6;
+//   --darkTextColor: #3B0100;
+//   --brightTextColor: #fe1546;
+// }
+
+// Galaxy Quest Theme
 :root {
   --mainFont: 'Montserrat', sans-serif;
-  --mainFrameColor: #9a1750;
-  --mainBackgroundColor: #e3e2df;
-  --darkTextColor: #2C211C;
-  --brightTextColor: #EE4C7C;
+  --mainFrameColor: #F7C9AA;
+  --mainBackgroundColor: #FEF8E8;
+  --darkTextColor: rgb(71, 39, 60);
+  --brightTextColor: #4D9FA8;
+  --titleBackgroundColor: -webkit-linear-gradient(0deg, var(--darkTextColor), var(--brightTextColor) 150%);
 }
 
 body, html {
