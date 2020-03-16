@@ -39,7 +39,7 @@ function Contact() {
                         <div className='contact-element-title-box'>
                             <h3>email</h3>
                         </div>
-                        <a href='mailto:josua.haemmerle@gmail.com'>josua.haemmerle(at)gmail.com</a>
+                        <a href='mailto:josua.haemmerle@gmail.com'>josua.haemmerle (at) gmail.com</a>
                     </div>
 
                     <div className='contact-element contact-element-linkedin'>
