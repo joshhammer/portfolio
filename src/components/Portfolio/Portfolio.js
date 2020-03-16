@@ -65,7 +65,7 @@ function Portfolio() {
                             <h3 className='portfolio-card-title'>Bootcamp Project</h3>
                             <div className='portfolio-card-border-box'>
                                 <img className='portfolio-card-image razzpay-img' src={razzpay} alt="rgb gif"/>
-                                <p className='portfolio-card-text'>A payroll management app. Final project of the propulsion academy full-stack bootcamp.</p>
+                                <p className='portfolio-card-text'>A payroll management app. Final group project of the propulsion academy full-stack bootcamp.</p>
                                 <a href='https://github.com/joshhammer/propulsion-final-project' target='_blank' rel="noopener noreferrer">Github Repo and Page</a>
                             </div>
                         </div>

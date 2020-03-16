@@ -35,8 +35,13 @@ function Music() {
                         <h3 className='music-card-title'>farlow</h3>
                         <div className='music-card-border-box'>
                             <img className='music-card-image' src={farlow} alt="farlow pic" />
-                            <p className='music-card-text'>Farlow is an indie rock band.</p>
+                            <p className='music-card-text'>Farlow play fine, melodic indie rock, which captivates with its interplay between calm and 
+                                powerful facets. Whether distorted or gentle: the sound of the band is permeated with great emotions, 
+                                part-vocal harmonies and precise rhythm.
+                            </p>
                             <a href='http://www.soundcloud.com/farlowband' target='_blank' rel="noopener noreferrer">Visit Website</a>
+                            <a href='https://open.spotify.com/artist/6FaFfb0CWM4UJcRrmAmird' target='_blank' rel="noopener noreferrer">Spotify</a>
+                            <a href='https://music.apple.com/ch/artist/farlow/203449835' target='_blank' rel="noopener noreferrer">iTunes</a>
                         </div>
                     </div>
 
@@ -44,8 +49,12 @@ function Music() {
                         <h3 className='music-card-title'>Josh Hammer</h3>
                         <div className='music-card-border-box'>
                             <img className='music-card-image' src={hammer} alt="josh hammer pic" />
-                            <p className='music-card-text'>Josh Hammer is an 80s Synthpop solo project.</p>
+                            <p className='music-card-text'>Josh Hammer plays raw, melodic Synthpop / New Wave music with distinct roots in the 80s. 
+                                A blend of analog synths, drum machines, electric guitar and -bass, topped off by crystal clear and haunting vocals, 
+                                robust and yet fragile.</p>
                             <a href='http://joshhammer.bandcamp.com' target='_blank' rel="noopener noreferrer">Visit Website</a>
+                            <a href='https://open.spotify.com/artist/5F4A4QZgABYQj9DiWQN9fm' target='_blank' rel="noopener noreferrer">Spotify</a>
+                            <a href='https://itunes.apple.com/gb/artist/josh-hammer/id1361040121' target='_blank' rel="noopener noreferrer">iTunes</a>
                         </div>
                     </div>
 
@@ -53,7 +62,15 @@ function Music() {
                         <h3 className='music-card-title'>Milhouse</h3>
                         <div className='music-card-border-box'>
                             <img className='music-card-image' src={hammer} alt="josh hammer pic" />
-                            <p className='music-card-text'>Milhouse was an alternative rock band.</p>
+                            <p className='music-card-text'>Milhouse was an alternative rock band based in Winterthur from 2002 - 2006.</p>
+                        </div>
+                    </div>
+
+                    <div className='music-card'>
+                        <h3 className='music-card-title'>Forecast</h3>
+                        <div className='music-card-border-box'>
+                            <img className='music-card-image' src={hammer} alt="josh hammer pic" />
+                            <p className='music-card-text'>Forecast was an brit-rock inspired band based in Winterthur from 1998 - 2001.</p>
                         </div>
                     </div>
                 </div>

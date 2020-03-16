@@ -16,31 +16,35 @@ function About() {
                             </Link>
                         </div>
                     </div>
-                    <h3 className='about-subtitle'>i am a musician and front-end web developer</h3>
+                    <h3 className='about-subtitle'>i am a musician and front-end web developer*</h3>
                     <p className='about-paragraph'>
-                        I’m naturally inquisitive and enjoy figuring out how things work. I have a defined sense of aesthetic and enjoy 
-                        making thoughtful, engaging, and functional web applications that have a simple, clean and distinct design.
-                        I’ve built web applications using Ruby on Rails, Node.js and React and have a strong foundation in web design and development. 
-                        I've recently completed Coder Academy’s 6 month web development bootcamp. Before moving into development, I worked in the Library 
-                        and Information Management sector, where I produced and managed content. When I'm not coding, I enjoy spending time with friends, 
-                        family and my two cats, Willow and Orlando.
+                        I am a thoughtful, sociable person who likes a laugh just as much as having serious conversations about society, work, music etc. 
+                        I have a defined sense of aesthetic and love beautiful items, instruments, cars and such. That's also why I enjoy
+                        making beautiful, engaging, and functional web applications that have a simple, clean and distinct design.
+                        I've recently completed Propulsion Academy’s 3 month full-stack web development bootcamp. Before that, 
+                        I've worked mainly in the tech sector, as an IT- and engineering supporter and gained some leadership experience as an IT-support 
+                        team lead in a foundation for mentally impaired members of our society. Other than coding, I sometimes like to play a good videogame,
+                        I like being outdoors in the mountains or woods for example, and of course I still enjoy making music a lot. 
+                        <span className='looking-for-job'>*(currently looking for a job as a junior)</span>
+                        
                     </p>
                 </div>
                 <div className='about-section-lower'>
                     <h2 className='interests-title'>interests and likes</h2>
                     <div className='interests-box'>
                         <p className='interest-tag'>Synthesizers</p>
-                        <p className='interest-tag'>Tennis</p>
-                        <p className='interest-tag'>Trevor Noah</p>
+                        <p className='interest-tag'>Guitars</p>
                         <p className='interest-tag'>Wildlife</p>
                         <p className='interest-tag'>Satire</p>
-                        <p className='interest-tag'>John Oliver</p>
                         <p className='interest-tag'>Documentaries</p>
-                        <p className='interest-tag'>Roger Federer</p>
-                        <p className='interest-tag'>Wes Anderson Movies</p>
-                        <p className='interest-tag'>Guitars</p>
+                        <p className='interest-tag'>Tennis</p>
+                        <p className='interest-tag'>Trevor Noah</p>
+                        <p className='interest-tag'>John Oliver</p>
+                        <p className='interest-tag'>Movies</p>
                         <p className='interest-tag'>Politics</p>
                         <p className='interest-tag'>Ricky Gervais</p>
+                        <p className='interest-tag'>George Carlin</p>
+                        <p className='interest-tag'>Videogames</p>
                     </div>
                 </div>
             </div>
