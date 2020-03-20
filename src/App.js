@@ -12,7 +12,7 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route exact path="/" component={Landingpage} />
+        <Route exact path="/home" component={Landingpage} />
         <Route exact path="/about" component={About} />
         <Route exact path="/skills" component={Skills} />
         <Route exact path="/portfolio" component={Portfolio} />
