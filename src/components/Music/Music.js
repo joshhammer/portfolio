@@ -25,8 +25,8 @@ function Music() {
                         - and was listening to the guitar solo of "We Will Rock You" - I knew that this was the instrument I wanted to play. Since then
                         I have written numerous songs, played in various bands and kept improving my singing, songwriting and instrumental skills.
                         Then, a few years ago I discovered a new love: Synthesizers! These magical instruments still never cease to amaze me. 
-                        So many knobs and buttons, so many sonic possibilities! Like a playground that never gets boring. Anyway, here's a short list
-                        of projects I have been part of or made completely by myself so far:
+                        So many knobs and buttons, so many sonic possibilities! Like a playground that never gets boring. Anyway, here the two 
+                        most important projects I have been working on in the last few years:
                     </p>
                 </div>
                 <div className='music-projects-container'>
@@ -58,7 +58,7 @@ function Music() {
                         </div>
                     </div>
 
-                    <div className='music-card'>
+                    {/* <div className='music-card'>
                         <h3 className='music-card-title'>Milhouse</h3>
                         <div className='music-card-border-box'>
                             <img className='music-card-image' src={hammer} alt="josh hammer pic" />
@@ -72,7 +72,7 @@ function Music() {
                             <img className='music-card-image' src={hammer} alt="josh hammer pic" />
                             <p className='music-card-text'>Forecast was an brit-rock inspired band based in Winterthur from 1998 - 2001.</p>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
