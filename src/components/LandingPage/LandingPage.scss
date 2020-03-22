@@ -51,6 +51,7 @@
 }
 #know-more {
     color: var(--darkTextColor);
+    margin-bottom: .5rem;
 }
 
 .navigation-links {
@@ -121,6 +122,11 @@
     .landing-page {
         &-wrapper {
             padding: 0px; 
+        }
+        &-content {
+            & h1 {
+                font-size: 1.75rem;
+            }
         }
     }
 }
