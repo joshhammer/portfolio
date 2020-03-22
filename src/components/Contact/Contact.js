@@ -16,7 +16,6 @@ function Contact() {
                             </Link>
                         </div>
                     </div>
-                </div>
                 <div className='contact-details-section'>
                     <div className='contact-element contact-element-address'>
                         <div className='contact-element-title-box'>
@@ -49,6 +48,7 @@ function Contact() {
                         <a href='https://www.linkedin.com/in/josua-haemmerle' target='_blank' rel="noopener noreferrer">linkedin.com/in/josua-haemmerle</a>
                     </div>
 
+                </div>
                 </div>
             </div>
         </div>

@@ -1,7 +1,6 @@
 .contact-page {
     &-wrapper {
         height: 100vh;
-        // background: var(--mainFrameColor);
         background: linear-gradient(135deg, var(--mainFrameColor), var(--darkTextColor));
         display: flex;
         justify-content: center;
@@ -25,14 +24,13 @@
 
 .contact-section-upper {
     width: 75%;
-    margin-bottom: 4rem;
 }
 
 .contact-title-box {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 1.5rem;
+    margin-bottom: 6rem;
 }
 
 .contact-title {
@@ -45,14 +43,13 @@
 }
 
 .contact-details-section {
-    width: 50%;
+    width: 100%;
 }
 
 .contact-element {
     margin-bottom: 3rem;
     color: var(--darkTextColor);
-    // display: flex;
-    // flex-direction: column;
+
     & h3 {
         font-size: 2rem;
         text-transform: uppercase;
@@ -96,10 +93,6 @@
         font-size: 2.5rem;
     }
 
-    .contact-details-section {
-        width: 100%;
-    }
-
     .contact-element {
         margin-bottom: 3rem;
             & h3 {
@@ -130,10 +123,6 @@
 
     .contact-title {
         font-size: 3rem;
-    }
-
-    .contact-details-section {
-        width: 100%;
     }
 
     .contact-element {

@@ -28,7 +28,6 @@ function About() {
                         <span className='looking-for-job'>*(currently looking for a job as a junior)</span>
                         
                     </p>
-                </div>
                 <div className='about-section-lower'>
                     <h2 className='interests-title'>interests and likes</h2>
                     <div className='interests-box'>
@@ -46,6 +45,7 @@ function About() {
                         <p className='interest-tag'>George Carlin</p>
                         <p className='interest-tag'>Videogames</p>
                     </div>
+                </div>
                 </div>
             </div>
         </div>

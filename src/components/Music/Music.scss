@@ -19,13 +19,13 @@
     }
 }
 
-.music-page-content::-webkit-scrollbar {
-  display: none;
-}
-
 .music-section-upper {
     width: 75%;
-    margin-bottom: 4rem;
+    overflow: scroll;
+}
+
+.music-section-upper::-webkit-scrollbar {
+  display: none;
 }
 
 .music-title-box {
@@ -55,6 +55,7 @@
 }
 
 .music-paragraph {
+    margin-bottom: 4rem;
     color: var(--darkTextColor);
     font-size: 1.3rem;
     line-height: 1.75rem;
@@ -62,7 +63,7 @@
 }
 
 .music-projects-container {
-    width: 75%;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 50px;
@@ -123,7 +124,6 @@
 
     .music-section-upper {
         width: 100%;
-        margin-bottom: 4rem;
     }
 
     .music-title-box {
@@ -175,7 +175,6 @@
 
     .music-section-upper {
         width: 100%;
-        margin-bottom: 4rem;
     }
 
     .music-title-box {

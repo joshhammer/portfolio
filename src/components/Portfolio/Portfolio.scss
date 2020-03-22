@@ -14,15 +14,15 @@
         display: flex;
         flex-direction: column;
         padding: 40px;
+        overflow: scroll;
     }
 }
 
 .portfolio-section-upper {
     width: 75%;
     height: 100%;
-    // margin-bottom: 4rem;
     overflow: scroll;
-    padding-bottom: 3rem;
+    // padding-bottom: 3rem;
 }
 
 .portfolio-section-upper::-webkit-scrollbar {
@@ -50,6 +50,10 @@
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 50px;
     overflow: scroll;
+}
+
+.portfolio-work-container::-webkit-scrollbar {
+  display: none;
 }
 
 .portfolio-card {

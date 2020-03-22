@@ -1,7 +1,6 @@
 .about-page {
     &-wrapper {
         height: 100vh;
-        // background: var(--mainFrameColor);
         background: linear-gradient(135deg, var(--mainFrameColor), var(--darkTextColor));
         display: flex;
         justify-content: center;
@@ -19,13 +18,13 @@
     }
 }
 
-.about-page-content::-webkit-scrollbar {
-  display: none;
+.about-section-upper {
+    overflow: scroll;
+    width: 75%;
 }
 
-.about-section-upper {
-    width: 75%;
-    margin-bottom: 5rem;
+.about-section-upper::-webkit-scrollbar {
+  display: none;
 }
 
 .about-title-box {
@@ -59,6 +58,7 @@
     font-size: 1.3rem;
     line-height: 1.75rem;
     text-align: justify;
+    margin-bottom: 5rem;
 }
 
 .looking-for-job {
@@ -67,7 +67,7 @@
 }
 
 .about-section-lower {
-    width: 75%;
+    width: 100%;
 }
 
 .interests-title {
@@ -82,10 +82,6 @@
 .interests-box {
     padding: 20px 0;
     margin-left: -10px;
-    // & p:nth-child(2n) {
-    //     background: var(--brightTextColor);
-    //     color: var(--darkTextColor);
-    // }
 }
 
 .interest-tag {
@@ -137,10 +133,6 @@
         line-height: 1.75rem;
     }
 
-    .about-section-lower {
-        width: 100%;
-    }
-
     .interests-title {
         font-size: 2rem;
     }
@@ -185,10 +177,6 @@
     .about-paragraph {
         font-size: 1.2rem;
         line-height: 1.75rem;
-    }
-
-    .about-section-lower {
-        width: 100%;
     }
 
     .interests-title {
