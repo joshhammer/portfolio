@@ -205,3 +205,17 @@
     }
 
 }
+
+// for iPhone SE
+@media screen and (max-width: 340px) {
+    .music-page {
+        &-wrapper {
+            padding: 0px; 
+        }
+    }
+
+    .music-card {
+        min-width: 280px;
+        max-width: 280px;
+    }
+}

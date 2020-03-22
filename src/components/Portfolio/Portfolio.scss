@@ -107,6 +107,7 @@
     object-fit: cover;
 }
 
+
 // small media query
 
 @media screen and (max-width: 768px) {
@@ -118,7 +119,7 @@
     &-content {
         padding: 20px;
     }
-    }
+}
 
     .portfolio-section-upper {
         width: 100%;
@@ -214,6 +215,30 @@
         &-text {
             font-size: .9rem;
         }
+    }
+}
+
+// for iPhone SE
+@media screen and (max-width: 340px) {
+    .portfolio-page {
+    &-wrapper {
+        padding: 0px; 
+        }
+    &-content {
+        padding: 10px;
+        }
+    }
+
+    .portfolio-title {
+        font-size: 2rem;
+    }
+
+    .portfolio-work-container {
+        grid-template-columns: 300px;
+    }
+
+    .portfolio-card {
+        width: 300px;
     }
 }
 

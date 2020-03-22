@@ -46,3 +46,12 @@
         }
     }
 }
+
+@media screen and (max-width: 340px) {
+    .back-btn {
+    & svg {
+        width: 30px;
+        height: 30px;
+        }
+    }
+}

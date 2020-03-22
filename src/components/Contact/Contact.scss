@@ -138,3 +138,12 @@
             }
     }
 }
+
+// for iPhone SE
+@media screen and (max-width: 340px) {
+    .contact-page {
+        &-wrapper {
+            padding: 0px; 
+        }
+    }
+}

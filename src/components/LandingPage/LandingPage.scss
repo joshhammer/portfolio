@@ -115,3 +115,12 @@
         }
     }
 }
+
+// for iPhone SE
+@media screen and (max-width: 340px) {
+    .landing-page {
+        &-wrapper {
+            padding: 0px; 
+        }
+    }
+}

@@ -168,3 +168,12 @@
         }
     }
 }
+
+// for iPhone SE
+@media screen and (max-width: 340px) {
+    .skills-page {
+        &-wrapper {
+            padding: 0px; 
+        }
+    }
+}
