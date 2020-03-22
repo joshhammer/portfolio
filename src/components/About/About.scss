@@ -19,6 +19,10 @@
     }
 }
 
+.about-page-content::-webkit-scrollbar {
+  display: none;
+}
+
 .about-section-upper {
     width: 75%;
     margin-bottom: 5rem;
@@ -92,7 +96,7 @@
     background: var(--brightTextColor);
     color: var(--mainBackgroundColor);
     text-transform: uppercase;
-    font-size: 1.15rem;
+    font-size: 1.1rem;
 }
 
 
@@ -129,7 +133,7 @@
     }
 
     .about-paragraph {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         line-height: 1.75rem;
     }
 
@@ -179,7 +183,7 @@
     }
 
     .about-paragraph {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         line-height: 1.75rem;
     }
 

@@ -19,6 +19,10 @@
     }
 }
 
+.contact-page-content::-webkit-scrollbar {
+  display: none;
+}
+
 .contact-section-upper {
     width: 75%;
     margin-bottom: 4rem;
@@ -99,13 +103,13 @@
     .contact-element {
         margin-bottom: 3rem;
             & h3 {
-                font-size: 1.7rem;
+                font-size: 1.5rem;
             }
             & p {
-                font-size: 1.4rem;
+                font-size: 1.3rem;
             }
             & a {
-                font-size: 1.4rem;
+                font-size: 1.3rem;
             }
     }
 }
