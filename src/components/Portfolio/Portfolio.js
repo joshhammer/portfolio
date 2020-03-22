@@ -23,6 +23,7 @@ function Portfolio() {
                             </Link>
                         </div>
                     </div>
+                    
                     <div className='portfolio-work-container'>
                         <div className='portfolio-card'>
                             <h3 className='portfolio-card-title'>RGB Guessing Game</h3>

@@ -28,6 +28,7 @@ function Music() {
                         So many knobs and buttons, so many sonic possibilities! Like a playground that never gets boring. Anyway, here the two 
                         most important projects I have been working on in the last few years:
                     </p>
+                    
                     <div className='music-projects-container'>
 
                         <div className='music-card'>

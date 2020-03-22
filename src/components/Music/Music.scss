@@ -1,7 +1,6 @@
 .music-page {
     &-wrapper {
         height: 100vh;
-        // background: var(--mainFrameColor);
         background: linear-gradient(135deg, var(--mainFrameColor), var(--darkTextColor));
         display: flex;
         justify-content: center;
