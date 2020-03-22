@@ -16,7 +16,7 @@ function Landingpage() {
                         <div className='navigation-links'>
                             <Link to="/about">about</Link>
                             <Link to="/skills">skills</Link>
-                            <Link to="/portfolio">portfolio</Link>
+                            <Link to="/work">portfolio</Link>
                             <Link to="/music">music</Link>
                             <Link to="/contact">contact</Link>
                         </div>
