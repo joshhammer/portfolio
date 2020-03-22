@@ -25,7 +25,7 @@ function Music() {
                         - and was listening to the guitar solo of "We Will Rock You" - I knew that this was the instrument I wanted to play. Since then
                         I have written numerous songs, played in various bands and kept improving my singing, songwriting and instrumental skills.
                         Then, a few years ago I discovered a new love: Synthesizers! These magical instruments still never cease to amaze me. 
-                        So many knobs and buttons, so many sonic possibilities! Like a playground that never gets boring. Anyway, here the two 
+                        So many knobs and buttons, so many sonic possibilities! Like a playground that never gets boring. Anyway, here are the two 
                         most important projects I have been working on in the last few years:
                     </p>
                     
