@@ -38,8 +38,17 @@ function Portfolio() {
                             <h3 className='portfolio-card-title'>etch-a-sketch</h3>
                             <div className='portfolio-card-border-box'>
                                 <img className='portfolio-card-image' src={etchSketch} alt="etch-a-sketch gif"/>
-                                <p className='portfolio-card-text'>A simple "Etch-a-Sketch" board made with Vanilla JS. Exercise for "The Odin Project".</p>
+                                <p className='portfolio-card-text'>A simple "Etch-a-Sketch" drawing board made with Vanilla JS. Exercise for "The Odin Project".</p>
                                 <a href='https://github.com/joshhammer/etch-a-sketch' target='_blank' rel="noopener noreferrer">Github Repo and Page</a>
+                            </div>
+                        </div>
+
+                        <div className='portfolio-card'>
+                            <h3 className='portfolio-card-title'>Razzpay</h3>
+                            <div className='portfolio-card-border-box'>
+                                <img className='portfolio-card-image razzpay-img' src={razzpay} alt="rgb gif"/>
+                                <p className='portfolio-card-text'>A payroll management app made with React & Redux. Final group project of the propulsion academy full-stack bootcamp.</p>
+                                <a href='https://github.com/joshhammer/propulsion-final-project' target='_blank' rel="noopener noreferrer">Github Repo</a>
                             </div>
                         </div>
 
@@ -47,7 +56,7 @@ function Portfolio() {
                             <h3 className='portfolio-card-title'>Todo List</h3>
                             <div className='portfolio-card-border-box'>
                                 <img className='portfolio-card-image' src={todo} alt="rgb gif"/>
-                                <p className='portfolio-card-text'>A simple todo list using React & Redux. there's a strange little bug I still have to fix though :)</p>
+                                <p className='portfolio-card-text'>A simple todo list using React and Redux and some HTML/CSS of course.</p>
                                 <a href='https://github.com/joshhammer/react-todo' target='_blank' rel="noopener noreferrer">Github Repo and Page</a>
                             </div>
                         </div>
@@ -62,14 +71,6 @@ function Portfolio() {
                         </div>
 
 
-                        <div className='portfolio-card'>
-                            <h3 className='portfolio-card-title'>Bootcamp Project</h3>
-                            <div className='portfolio-card-border-box'>
-                                <img className='portfolio-card-image razzpay-img' src={razzpay} alt="rgb gif"/>
-                                <p className='portfolio-card-text'>A payroll management app. Final group project of the propulsion academy full-stack bootcamp.</p>
-                                <a href='https://github.com/joshhammer/propulsion-final-project' target='_blank' rel="noopener noreferrer">Github Repo and Page</a>
-                            </div>
-                        </div>
 
                         <div className='portfolio-card'>
                             <h3 className='portfolio-card-title'>Josh Hammer</h3>
